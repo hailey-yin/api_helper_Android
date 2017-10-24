@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carbon.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    app:carbon_elevation="2dp"
+    style="@style/carbon_CardView"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    style="@style/project_detail"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/method"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/post"
+                        android:textSize="@dimen/text_size_large"
+                        android:textColor="@color/method_color"/>
+
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/server_url"
+                        android:layout_marginBottom="5dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="192.168.1.1:0808/api_test"
+                        android:layout_marginBottom="2dp"
+                        android:textColor="@color/text_color"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/divider"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_parameter"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="14dp"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:orientation="vertical">
+                    <ListView
+                        android:id="@+id/list_params"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                    </ListView>
+
+                </LinearLayout>
+
+                <carbon.widget.TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="@dimen/marge_left"
+                    android:layout_marginRight="@dimen/marge_left"
+                    android:gravity="center"
+                    android:clickable="true"
+                    android:text="@string/send_request"
+                    android:textSize="@dimen/text_size_large"
+                    android:textColor="@color/primary_dark"
+                    style="@style/carbon_TextView"
+                    app:carbon_rippleColor="@color/primary"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/divider"/>
+                <LinearLayout
+                    style="@style/project_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/output"
+                        android:textSize="@dimen/text_size_large"
+                        android:textColor="@color/primary_dark"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:minHeight="200dp"
+                        android:layout_marginTop="10dp"
+                        android:padding="10dp"
+                        android:background="@drawable/bg_output"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="16dp">
+                <carbon.widget.TextView
+                    android:id="@+id/btn_test_error"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="@dimen/view_depend_parent"
+                    android:layout_marginRight="@dimen/view_depend_parent"
+                    android:gravity="center"
+                    android:clickable="true"
+                    android:text="@string/test_error"
+                    android:textSize="@dimen/text_size_large"
+                    android:textColor="@color/primary_dark"
+                    style="@style/carbon_TextView"
+                    app:carbon_rippleColor="@color/primary"
+                    android:layout_marginBottom="14dp"/>
+
+                <carbon.widget.TextView
+                    android:id="@+id/btn_feedback"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="@dimen/view_depend_parent"
+                    android:layout_marginRight="@dimen/view_depend_parent"
+                    android:gravity="center"
+                    android:clickable="true"
+                    android:text="@string/feedback"
+                    android:textSize="@dimen/text_size_large"
+                    android:textColor="@color/primary_dark"
+                    style="@style/carbon_TextView"
+                    app:carbon_rippleColor="@color/primary"
+                    android:layout_marginBottom="14dp"/>
+
+                <carbon.widget.TextView
+                    android:id="@+id/btn_back"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="@dimen/view_depend_parent"
+                    android:layout_marginRight="@dimen/view_depend_parent"
+                    android:gravity="center"
+                    android:clickable="true"
+                    android:text="@string/back"
+                    android:textSize="@dimen/text_size_large"
+                    android:textColor="@color/primary_dark"
+                    style="@style/carbon_TextView"
+                    app:carbon_rippleColor="@color/primary"
+                    android:layout_marginBottom="14dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</carbon.widget.CardView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\Workspaces\BudRest-Android\BudRest_Android\app\build\intermediates\exploded-aar\BudRest_Android\BudLiteProvider\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="68ae3f99faa1ec5cd2c9e68ec39d0e4405e88098">
+        <dex dex="D:\Workspaces\BudRest-Android\BudRest_Android\app\build\intermediates\pre-dexed\debug\classes-e83df53c7c5acaa43a334e452c1287997d967ca1.jar" />
+    </item>
+
+</items>

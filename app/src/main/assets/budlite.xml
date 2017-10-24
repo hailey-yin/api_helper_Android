@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<budlite>
+
+    <!-- 数据库名 -->
+    <dbname value="budrest"/>
+
+    <!-- 数据库版本 -->
+    <version value="2"/>
+
+    <!--Bean目录-->
+    <dbBeanPkName value="bean"/>
+
+    <!--DAO目录-->
+    <dbDaoPKName value="dao"/>
+
+    <beanName value="UserDb">
+        <beanAttr attrName="username" attrType="String"/>
+        <beanAttr attrName="pwd" attrType="String"/>
+        <beanAttr attrName="date" attrType="String"/>
+    </beanName>
+
+    <beanName value="GroupDb">
+        <beanAttr attrName="pid" attrType="String"/>
+        <beanAttr attrName="gid" attrType="int"/>
+        <beanAttr attrName="name" attrType="String"/>
+    </beanName>
+
+    <beanName value="ApiDb">
+        <beanAttr attrName="pid" attrType="String"/>
+        <beanAttr attrName="gid" attrType="int"/>
+        <beanAttr attrName="aid" attrType="String"/>
+        <beanAttr attrName="url" attrType="String"/>
+        <beanAttr attrName="deployStatus" attrType="int"/>
+        <beanAttr attrName="name" attrType="String"/>
+        <beanAttr attrName="description" attrType="String"/>
+        <beanAttr attrName="urlsuffix" attrType="String"/>
+        <beanAttr attrName="method" attrType="String"/>
+        <beanAttr attrName="ability" attrType="int"/>
+        <beanAttr attrName="output" attrType="String"/>
+        <beanAttr attrName="status" attrType="int"/>
+    </beanName>
+
+    <beanName value="ProjectDb">
+        <beanAttr attrName="pid" attrType="String"/>
+        <beanAttr attrName="name" attrType="String"/>
+        <beanAttr attrName="info" attrType="String"/>
+        <beanAttr attrName="desc" attrType="String"/>
+        <beanAttr attrName="urlprefix" attrType="String"/>
+        <beanAttr attrName="status" attrType="int"/>
+        <beanAttr attrName="authorStatus" attrType="int"/>
+        <beanAttr attrName="virtualUrl" attrType="String"/>
+        <beanAttr attrName="author" attrType="String"/>
+        <beanAttr attrName="authority" attrType="int"/>
+        <beanAttr attrName="username" attrType="String"/>
+    </beanName>
+
+    <beanName value="LateCollectionDb">
+        <beanAttr attrName="username" attrType="String"/>
+        <beanAttr attrName="pid" attrType="String"/>
+        <beanAttr attrName="flag" attrType="int"/>
+    </beanName>
+
+    <beanName value="JoinDb">
+        <beanAttr attrName="username" attrType="String"/>
+        <beanAttr attrName="pid" attrType="String"/>
+        <beanAttr attrName="flag" attrType="int"/>
+    </beanName>
+
+</budlite>

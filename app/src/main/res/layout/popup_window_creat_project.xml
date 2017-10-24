@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carbon.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <carbon.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="2dp"
+        app:carbon_elevation="2dp"
+        app:carbon_cornerRadius="2dp"
+        android:background="@color/white">
+
+        <carbon.widget.RelativeLayout
+            android:id="@+id/layout_public"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            style="@style/carbon_RelativeLayout"
+            app:carbon_rippleColor="@color/primary_dark">
+
+            <TextView
+                android:layout_marginLeft="14dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="所有人可见"
+                android:layout_centerVertical="true"/>
+        </carbon.widget.RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"/>
+
+        <carbon.widget.RelativeLayout
+            android:id="@+id/layout_private"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            style="@style/carbon_RelativeLayout"
+            app:carbon_rippleColor="@color/primary_dark">
+
+            <TextView
+                android:layout_marginLeft="14dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="仅自己可见"
+                android:layout_centerVertical="true"/>
+        </carbon.widget.RelativeLayout>
+
+    </carbon.widget.CardView>
+
+
+</carbon.widget.LinearLayout>

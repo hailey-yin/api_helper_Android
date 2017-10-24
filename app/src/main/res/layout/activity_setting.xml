@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="mobi.wonders.apps.android.budrest.activity.SettingActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gray">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                app:layout_scrollFlags="scroll|enterAlways|snap"
+                app:theme="@style/Toolbar_Theme"
+                android:elevation="2dp"/>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_marginTop="12dp"
+                android:layout_height="1px"
+                android:background="@color/divider"/>
+            <carbon.widget.RelativeLayout
+                android:id="@+id/layout_clear_cache"
+                style="@style/carbon_RelativeLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:clickable="true"
+                android:minHeight="50dp"
+                android:orientation="vertical"
+                app:carbon_rippleColor="@color/primary">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="16dp"
+                    android:text="@string/clear_cache"/>
+                <TextView
+                    android:id="@+id/text_cachesize"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="40dp"
+                    android:text="@string/nologin" />
+            </carbon.widget.RelativeLayout>
+            <include layout="@layout/activity_shorter_divider"/>
+
+            <carbon.widget.RelativeLayout
+                android:id="@+id/layout_help"
+                style="@style/carbon_RelativeLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:clickable="true"
+                android:minHeight="50dp"
+                android:orientation="vertical"
+                app:carbon_rippleColor="@color/primary">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="16dp"
+                    android:text="@string/help"/>
+            </carbon.widget.RelativeLayout>
+            <include layout="@layout/activity_shorter_divider"/>
+            <carbon.widget.RelativeLayout
+                android:id="@+id/layout_document"
+                style="@style/carbon_RelativeLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:clickable="true"
+                android:minHeight="50dp"
+                android:orientation="vertical"
+                app:carbon_rippleColor="@color/primary">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="16dp"
+                    android:text="@string/documents"/>
+            </carbon.widget.RelativeLayout>
+            <include layout="@layout/activity_shorter_divider"/>
+            <carbon.widget.RelativeLayout
+                android:id="@+id/layout_version"
+                style="@style/carbon_RelativeLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:clickable="true"
+                android:minHeight="50dp"
+                android:orientation="vertical"
+                app:carbon_rippleColor="@color/primary">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="16dp"
+                    android:text="@string/version"/>
+            </carbon.widget.RelativeLayout>
+            <include layout="@layout/activity_divider"/>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_marginTop="12dp"
+                android:layout_height="1px"
+                android:background="@color/divider"/>
+            <carbon.widget.TextView
+                android:id="@+id/exit_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:background="@android:color/white"
+                android:gravity="center_vertical"
+                android:paddingLeft="16dp"
+                android:text="@string/exit"
+                android:textColor="@color/red"
+                android:clickable="true"
+                app:carbon_rippleColor="@color/primary_dark" />
+            <include layout="@layout/activity_divider"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

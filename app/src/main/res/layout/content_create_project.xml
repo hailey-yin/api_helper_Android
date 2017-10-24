@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/et_program_name"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/menu_height"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="@dimen/marge_left"
+        android:layout_marginRight="@dimen/marge_left"
+        android:hint="@string/program_name"
+        android:imeOptions="actionNext"
+        android:nextFocusForward="@+id/et_program_prefix"
+        android:singleLine="true"
+        android:textSize="@dimen/text_size_xlarge"
+        android:textColor="@color/text_color"/>
+
+    <EditText
+        android:id="@+id/et_program_prefix"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/menu_height"
+        android:layout_marginLeft="@dimen/marge_left"
+        android:layout_marginRight="@dimen/marge_left"
+        android:hint="@string/program_prefix"
+        android:imeOptions="actionNext"
+        android:nextFocusForward="@+id/et_program_brief"
+        android:singleLine="true"
+        android:textSize="@dimen/text_size_medium"
+        android:textColor="@color/text_color"/>
+
+    <EditText
+        android:id="@+id/et_program_brief"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/menu_height"
+        android:layout_marginLeft="@dimen/marge_left"
+        android:layout_marginRight="@dimen/marge_left"
+        android:hint="@string/program_brief"
+        android:imeOptions="actionNext"
+        android:nextFocusForward="@+id/et_program_description"
+        android:singleLine="true"
+        android:textSize="@dimen/text_size_medium"
+        android:textColor="@color/text_color" />
+
+    <EditText
+        android:id="@+id/et_program_description"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/menu_height"
+        android:layout_marginLeft="@dimen/marge_left"
+        android:layout_marginRight="@dimen/marge_left"
+        android:hint="@string/program_description"
+        android:imeOptions="actionNext"
+        android:textSize="@dimen/text_size_medium"
+        android:textColor="@color/text_color"/>
+
+    <carbon.widget.LinearLayout
+        android:id="@+id/layout_program_privilege"
+        style="@style/carbon_LinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginLeft="@dimen/marge_left"
+        android:layout_marginRight="@dimen/marge_left"
+        android:layout_marginTop="5dp"
+        android:background="@color/white"
+        android:clickable="true"
+        app:carbon_elevation="2dp"
+        app:carbon_rippleColor="@color/primary_dark">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/program_privilege"
+            android:textColor="@color/text_color"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/divider" />
+
+        <TextView
+            android:id="@+id/et_program_privilege"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:hint="@string/program_privilege"
+            android:text="@string/privilege_private"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/text_size_medium" />
+    </carbon.widget.LinearLayout>
+
+
+</LinearLayout>

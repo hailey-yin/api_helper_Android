@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/test_api"
+        app:showAsAction="always"
+        android:icon="@drawable/bug_report_white"
+        android:title="@string/test"/>
+
+    <item android:id="@+id/edit_api"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_edit"
+        android:title="@string/edit"/>
+
+    <item android:id="@+id/setting_api"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/manager"/>
+
+    <item android:id="@+id/search_api"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_search_white"
+        android:title="@string/search" />
+
+</menu>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimaryDark">#388E3C</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="deepOrange">#FF5722</color>
+    <color name="red">#e51c23</color>
+
+    <!-- budRest color -->
+    <color name="primary">#4CAF50</color>
+    <color name="primary_dark">#388E3C</color>
+    <color name="primary_light">#C8E6C9</color>
+    <color name="accent">#4CAF50</color>
+    <color name="primary_text">#212121</color>
+    <color name="dark_grey">#424242</color>
+    <color name="secondary_text">#727272</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#C6C6C6</color>
+    <color name="blue">#03a9f4</color>
+    <color name="light_blue">#4fc3f7</color>
+    <color name="xlight_blue">#81d4fa</color>
+    <color name="cardview_button">#ff80cbc4</color>
+    <color name="yellow">#ffeb3b</color>
+    <color name="light_yellow">#ffee58</color>
+    <color name="xlight_yellow">#fff59d</color>
+    <color name="gray">#eeeeee</color>
+    <color name="darker_gray">#aaa</color>
+    <color name="white">#fff</color>
+    <color name="vifrification">#00000000</color>   <!-- 透明 -->
+    <color name="hint_text">#666666</color>
+    <color name="text_color">#333333</color>
+
+    <color name="method_color">#EA9C22</color>
+    <color name="grayer_dark_text_color">#6f736e</color>
+    <color name="gray_dark_text_color">#7c837b</color>
+
+</resources>

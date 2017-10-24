@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/empty_view_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/secondary_text"
+            android:textSize="@dimen/text_size_xlarge"
+            android:gravity="center"
+            android:text="网络加载失败..."/>
+        <View
+            android:layout_width="10dp"
+            android:layout_height="20dp"/>
+        <carbon.widget.Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:carbon_rippleColor="@color/primary"
+            android:gravity="center"
+            android:background="@color/vifrification"
+            android:text="刷新"
+            android:textColor="@color/secondary_text"/>
+    </LinearLayout>
+
+</LinearLayout>

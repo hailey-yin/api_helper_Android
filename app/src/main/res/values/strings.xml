@@ -1,0 +1,180 @@
+<resources>
+    <string name="app_name">BudRest_Android</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!--BudRest 登录注册 -->
+    <string name="login">登录</string>
+    <string name="changeuser">切换账号</string>
+    <string name="auto_login">自动登录</string>
+    <string name="username">用户名</string>
+    <string name="password">密码</string>
+    <string name="confirmpassword">确认密码</string>
+    <string name="prompt">没有账号？注册</string>
+    <string name="accept_protocol">我已阅读并同意协议</string>
+    <string name="input_username">请输入用户名</string>
+    <string name="input_pwd">请输入密码</string>
+    <string name="register">注册</string>
+    <string name="protocol_register">同意协议并注册</string>
+    <string name="agree">同意</string>
+    <string name="disagree">不同意</string>
+    <string name="protocol">注册协议</string>
+    <string name="budrest_protocol">《BudRest使用协议》</string>
+    <string name="protocol_content">一、合作宗旨：
+　　1、甲、乙双方在合作中建立的互信、惯例与默契是商业合作战略伙伴关系的基础，提高效率与共同发展是双方合作的目标和根本宗旨。
+　　2、本协议的基本原则是自愿、双赢、互惠互利、相互促进、共同发展、保守秘密、相互协作。
+　　3、充分发挥双方优势，优势互补，提高竞争力，共同开拓市场。
+　　4、本协议为框架协议，是甲、乙双方今后长期合作的指导性文件，也是双方签订相关合同业务的基础。
+　　二、合作方式：
+　　1、乙方依据不同客户的实际情况，参加招、投标和报价等;甲方为顺利夺标和获得订单，根据竞争对手、投标、实际订单及自己的实际情况积极配合乙方报出合理的价格和交货期，支持乙方投标和报价。
+　　2、乙方以甲方名义参与的所有项目所签订的合同应由甲方书面确认后方可履行，否则视同无效。
+　　3、甲方针对每个成功交易项目应支付给乙方服务费。服务费根据供货出厂单价和销售单价的差价及实际供货数量计算所得。因此，每个交易项目甲、乙双方将依据实际标的额，另行确认供货价差表。供货价差表为服务费计算的唯一依据。
+　　4、服务费的支付方式按实际签订项目合同中约定的付款方式执行。
+　　三、甲方义务：
+　　1、甲方负责组织项目合同订单产品的生产和配送，并根据项目订单计划按时按量供应产品。
+　　2、甲方负责项目合同履行时的技术工作处理，如材料送检、抽检等工作。
+　　3、甲方应保障供货产品的质量符合双方约定标准，若出现不合格产品由甲方负责。
+　　4、甲方应向乙方免费提供产品的销售和促销资料。
+　　5、甲方应接待乙方客户的相关业务考察，甲方承诺乙方客户信息属于商业秘密，未尽乙方许可，甲方不得泄露上述秘密。
+　　6、甲方应及时回应乙方的询价和招标邀请。
+　　四、乙方义务：
+　　1、乙方主导各个项目合同的人际公关，自项目接触至其完结，全部与项目有关事宜所产生的公关费用均由乙方承担。
+　　2、乙方有责任和义务协助甲方做好项目合同货款回收工作。
+　　五、保密：
+　　1、甲、乙双方应对相互工作接触及通过其他渠道获知的有关对方商业秘密严格保密，未经对方事先书面许可，不得向第三方披露。
+　　2、除为履行本协议约定工作事项外，未经对方事先同意，不得擅自使用、复制对方的技术资料、商业信息及其他资料。
+　　六、本协议有效期自20××年××月××日始至20××年××月××日止。如果甲、乙双方对于彼此之间的合作感到满意，经双方同意，则本协议将自动延续壹年。
+　　七、对于本协议中未约定的事项，甲、乙双方应友好协商解决或签订补充协议。
+　　八、本协议甲、乙双方签字盖章后生效。一式两份，甲、乙双方各执一份，均具有同等法律效力。</string>
+
+
+    <!--设置-->
+    <string name="chang_pwd">修改密码</string>
+    <string name="exit">退出当前账号</string>
+    <string name="clear_cache">清除缓存</string>
+
+
+    <!--Dialog-->
+    <string name="notice">提示</string>
+    <string name="know">知道了</string>
+    <string name="unconnected">网络已断开</string>
+
+    <string name="create_project">创建项目</string>
+    <string name="project_name">项目名称</string>
+    <string name="project_introduction">项目简介</string>
+    <string name="project_description">项目描述</string>
+    <string name="server_address">服务器地址</string>
+    <string name="authority">权限</string>
+    <string name="add">新增</string>
+    <string name="cancel">取消</string>
+    <string name="delete">删除</string>
+    <string name="look">查看</string>
+    <string name="edit">编辑</string>
+    <string name="open">公开</string>
+    <string name="owned">私有</string>
+    <string name="next">下一步</string>
+    <string name="search_project">搜索项目</string>
+    <string name="search_member_in_project">查询项目中存在的用户</string>
+    <string name="add_member">新增成员</string>
+
+
+
+    <!--activity与fragment文字-->
+    <string name="nologin">未登录</string>
+    <string name="help">帮助</string>
+    <string name="documents">文档</string>
+    <string name="version">版本</string>
+    <string name="homepage">首页</string>
+    <string name="attention">关注</string>
+    <string name="my">我的</string>
+    <string name="create">创建</string>
+    <string name="setting">设置</string>
+    <string name="theme">主题</string>
+
+    <string name="add_api_group">新增分组</string>
+    <string name="project_switch">项目切换</string>
+    <string name="import_api">导入API</string>
+    <string name="export_api">导出API</string>
+    <string name="input_api_name_way_path">请输入API名称，方式，路径</string>
+    <string name="synopsis">简介</string>
+    <string name="params">参数</string>
+    <string name="params_name">参数吗</string>
+    <string name="type">类型</string>
+    <string name="necessy_ornot">是否必须</string>
+    <string name="paraphrase">释义</string>
+    <string name="test">测试</string>
+    <string name="output">输出</string>
+    <string name="sample">示例</string>
+    <string name="success">成功</string>
+    <string name="error">错误</string>
+    <string name="description">描述</string>
+    <string name="management">管理</string>
+    <string name="api_monitor">API监控</string>
+    <string name="virtual_deployment">虚拟部署</string>
+    <string name="title_activity_my">MyActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="title_activity_create_project">CreateProjectActivity</string>
+    <string name="title_activity_setting">SettingActivity</string>
+
+    <string name="drawer_open">drawer_open</string>
+    <string name="drawer_close">drawer_close</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_change_pwd">ChangePwdActivity</string>
+
+    <!--新增项目-->
+    <string name="add_program">新增项目</string>
+    <string name="program_name">项目名</string>
+    <string name="program_prefix">服务器地址</string>
+    <string name="program_brief">项目简介</string>
+    <string name="program_privilege">项目权限</string>
+    <string name="program_description">项目描述</string>
+    <string name="sure_to_add_program">提交项目</string>
+    <string name="privilege_public">所有人可见</string>
+    <string name="privilege_private">仅自己可见</string>
+
+    <!--修改个人信息-->
+    <string name="edit_user_info">修改个人信息</string>
+    <string name="old_pwb">原密码</string>
+    <string name="new_pwb">新密码</string>
+    <string name="new_pwb_second">验证新密码</string>
+    <string name="sure_to_edit">修改</string>
+    <string name="title_activity_project">ProjectActivity</string>
+
+    <!--API详情-->
+    <string name="search">搜索</string>
+    <string name="search_more">搜索...</string>
+    <string name="post">POST</string>
+    <string name="GET">GET</string>
+    <string name="brief_introduction">简介</string>
+    <string name="server_url">服务器地址</string>
+    <string name="parameter">参数</string>
+    <string name="parameter_name">参数名</string>
+    <string name="parameter_style">参数类型</string>
+    <string name="parameter_is_must">是否必须</string>
+    <string name="parameter_mean">译义</string>
+    <string name="failure">失败</string>
+    <string name="example">示例</string>
+    <string name="change_API">切换</string>
+    <string name="send_request">发送请求</string>
+    <string name="back">返回</string>
+    <string name="done">完成</string>
+    <string name="feedback">反馈</string>
+    <string name="test_error">检测</string>
+    <string name="manager">管理</string>
+
+    <!--API测试-->
+    <string name="error_report">错误反馈</string>
+    <string name="email">邮箱</string>
+    <string name="bug_theme">主题</string>
+    <string name="content">内容</string>
+    <string name="title_activity_user_info">UserInfoActivity</string>
+
+
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carbon.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="mobi.wonders.apps.android.budrest.activity.EditUserInfoActivity"
+    tools:showIn="@layout/activity_edit_user_info">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="2dp"
+        app:layout_scrollFlags="scroll|enterAlways|snap"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/Toolbar_Theme" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/marge_top">
+
+            <EditText
+                android:id="@+id/et_old_pwb"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/menu_height"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="@dimen/marge_left"
+                android:layout_marginRight="@dimen/marge_left"
+                android:inputType="textPassword"
+                android:hint="@string/old_pwb"
+                android:imeOptions="actionNext"
+                android:nextFocusForward="@+id/et_program_prefix"
+                android:singleLine="true"
+                android:textSize="@dimen/text_size_large"
+                android:textColor="@color/text_color"/>
+
+            <EditText
+                android:id="@+id/et_new_pwb"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/menu_height"
+                android:layout_marginLeft="@dimen/marge_left"
+                android:layout_marginRight="@dimen/marge_left"
+                android:inputType="textPassword"
+                android:hint="@string/new_pwb"
+                android:imeOptions="actionNext"
+                android:nextFocusForward="@+id/et_program_brief"
+                android:singleLine="true"
+                android:textSize="@dimen/text_size_large"
+                android:textColor="@color/text_color" />
+
+            <EditText
+                android:id="@+id/et_new_pwb_sec"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/menu_height"
+                android:layout_marginLeft="@dimen/marge_left"
+                android:layout_marginRight="@dimen/marge_left"
+                android:inputType="textPassword"
+                android:hint="@string/new_pwb_second"
+                android:imeOptions="actionNext"
+                android:nextFocusForward="@+id/et_program_description"
+                android:singleLine="true"
+                android:textSize="@dimen/text_size_large"
+                android:textColor="@color/text_color" />
+        </LinearLayout>
+    </ScrollView>
+
+</carbon.widget.LinearLayout>

@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/api_channel"
+        android:orderInCategory="100"
+        android:title="API"/>
+    <item
+        android:id="@+id/attention_channel"
+        android:orderInCategory="100"
+        android:title="关注" />
+</menu>
